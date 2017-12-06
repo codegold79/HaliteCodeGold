@@ -1,0 +1,10 @@
+I got rid of all the require_once() errors by setting the following the php.ini file:
+
+    extension_dir = "c:\php\ext\"
+    open_basedir = "C:\Users\codegold\Documents\Games\Halite\php-starter-edited"
+
+I still have the dll hell to deal with, i.e. all the "Unable to load dynamic library" warnings. To help with this, I used http://php.net/manual/bg/install.windows.extensions.php.
+
+The php_interbase.dll and php_pdo_firebird.dll were able to load after I installed Firebird from http://www.firebirdsql.org/en/firebird-3-0/#Win64
+
+The php_oci8_12c.dll and php_pdo_oci.dll were able to load after I downloaded, extracted, and set the Environmental Path to the Oracle Instant Client 12.2 folder. According to the PHP site, you can install Oracle 8.1+. After setting the Environmental Path, you'll need to restart Windows so it can take effect.
