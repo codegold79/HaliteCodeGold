@@ -1,0 +1,36 @@
+[
+ {
+  "Error": {
+   "Message": "ERRORED! Got Exception (if any): ERROR: Bot #0: Received invalid character 'operable program or batch file.o'. (at character 1.)\nInput received from bot:\noperable program or batch file.\n^; Response received (if any): operable program or batch file.",
+   "Turn": 1
+  },
+  "Frames": [
+   {
+    "Time": 3,
+    "Turn": 0
+   },
+   {
+    "Time": 0
+   }
+  ],
+  "PlayerID": 0,
+  "PlayerName": "'php' is not recognized as an "
+ },
+ {
+  "Error": {
+   "Message": "ERRORED! Got Exception (if any): ERROR: Bot #1: Received invalid character 'operable program or batch file.o'. (at character 1.)\nInput received from bot:\noperable program or batch file.\n^; Response received (if any): operable program or batch file.",
+   "Turn": 1
+  },
+  "Frames": [
+   {
+    "Time": 6,
+    "Turn": 0
+   },
+   {
+    "Time": 0
+   }
+  ],
+  "PlayerID": 1,
+  "PlayerName": "'php' is not recognized as an "
+ }
+]
